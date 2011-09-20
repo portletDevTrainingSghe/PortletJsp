@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<portlet-app
+    xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_1_0.xsd"
+    version="1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_1_0.xsd
+                        http://java.sun.com/xml/ns/portlet/portlet-app_1_0.xsd">
+
+    <portlet>
+        <description>Sample portlet created during LP5 Training.</description>
+        <portlet-name>lp5crosstraining</portlet-name>
+        <display-name>lp5crosstraining Portlet</display-name>
+
+        <portlet-class>com.sungardhe.luminis.portlets.MyPortlet</portlet-class>
+
+        <supports>
+            <mime-type>text/html</mime-type>
+            <portlet-mode>VIEW</portlet-mode>
+        </supports>
+
+        <supported-locale>en</supported-locale>
+
+        <portlet-info>
+            <title>Sample Portlet Title</title>
+            <short-title>Portlet Short Title</short-title>
+            <keywords>lp5,sample,maven,eclipse</keywords>
+        </portlet-info>
+    </portlet>
+</portlet-app>
